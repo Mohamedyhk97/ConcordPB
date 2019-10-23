@@ -1,0 +1,38 @@
+<androidx.cardview.widget.CardView android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:elevation="1dp"
+    card_view:cardCornerRadius="5dp"
+    card_view:cardElevation="1dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    card_view:cardMaxElevation="1dp"
+    card_view:cardPreventCornerOverlap="false"
+    card_view:cardUseCompatPadding="true" >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/concordlogo"
+            android:layout_gravity="center"
+            ></ImageView>
+    <TextView
+        android:id="@+id/tv_depName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="#000000"
+        android:fontFamily="sans-serif-light"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:textSize="18dp"
+        android:text="IT Department/ادارة نظم المعلومات"
+        ></TextView>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
